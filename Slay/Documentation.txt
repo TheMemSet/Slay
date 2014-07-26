@@ -1,0 +1,7 @@
+Reference for the hexagonal grid: http://www.quarkphysics.ca/scripsi/hexgrid/
+
+Reasons for not being able to place a soldier at a certain position:
+ - More than one hexagon away from own territory
+ - Equal or better unit on, or within one hexagon, of the hexagon being invaded. The unit has to belong to the owner of the hexagon being invaded.
+ - Same case but with castle instead of unit. In that case, the attacking unit has to be Tier 1 (peasant) or Tier 2 (spearman).
+ - Same case but with house instead of castle. In that case, the attacking unit has to be Tier 1 (peasant).
